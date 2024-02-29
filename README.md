@@ -19,10 +19,11 @@ Employ Huggingface to create a sequence classification model with k labels corre
 Prepare data, create train and test dataloaders, and train the classifier using the Huggingface Trainer class.
 Instructions
 Run the program classifier.py with the following command-line setups:
-css
-Copy code
+
+
 python3 classifier.py authorlist -approach [generative|discriminative]
 python3 classifier.pt authorlist -approach [generative|discriminative] -test testfile
+
 When running without the -test flag, the program automatically extracts a development set, trains the model, and prints the results.
 When running with the -test flag, the program uses the entirety of data to train a language model and outputs classification results for each line in the given test file.
 Deliverables
