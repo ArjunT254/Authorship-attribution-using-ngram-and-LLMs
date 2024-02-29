@@ -4,7 +4,7 @@
 This project focuses on authorship attribution, aiming to determine the author of a given text. Two approaches, generative (n-gram language model) and discriminative (sequence classifier), are explored and compared in terms of their effectiveness in this task.
 
 ### Setup
-I have compiled source files containing excerpts from works by various authors: Jane Austen, Charles Dickens, Leo Tolstoy, and Oscar Wilde. These files are available [here](link). Ensure to decide on the encoding type to use, preferably UTF-8.
+I have compiled source files containing excerpts from works by various authors: Jane Austen, Charles Dickens, Leo Tolstoy, and Oscar Wilde. These files are available in the repo. Ensure to decide on the encoding type to use, preferably UTF-8.
 
 ### Project Details
 - **Generative Classifier**:
